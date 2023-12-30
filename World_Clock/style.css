@@ -1,0 +1,8 @@
+.clock{
+    width: 150px;
+    height: 150px;
+    border: 3px solid blue;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}

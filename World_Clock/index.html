@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock  ">
+        India
+    </div>
+    <div class="clock">
+        USA
+    </div>
+    <div class="clock">
+SPAIN
+    </div>
+    <script>
+let d = new Date()
+
+India.innerHTML = d.toLocaleString('en-US', {
+    timeZone: 'America/Los_Angeles',
+  })
+  
+
+    </script>
+</body>
+</html>

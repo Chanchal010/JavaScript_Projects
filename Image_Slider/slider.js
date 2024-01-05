@@ -2,9 +2,12 @@ const right = document.querySelector(".right")
 const left = document.querySelector(".left")
 const slider = document.querySelector(".slider")
 const images = document.querySelectorAll(".image")
+// const buttom = document.querySelector(".buttom")
+
 
 let slideNumber = 1;
 const length = images.length;
+
 const getNextSlide = ()=>{
     slider.style.transform = `translateX(-${slideNumber* 800}px)`
     slideNumber++;
@@ -31,4 +34,8 @@ left.addEventListener("click", ()=>{
 })
 
 
-
+// for(let i = 0; i<length; i++){
+//     const div = document.createElement("div");
+//     div.className = "button";
+//     buttom.appendChild(div);
+// }

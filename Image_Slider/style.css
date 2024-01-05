@@ -54,8 +54,8 @@ body{
   }
   
   .button{
-    width: 15px;
-    height: 15px;
+    width: 1500px;
+    height: 1500px;
     border-radius: 50%;
     border: 1px solid white;
     cursor: pointer;
